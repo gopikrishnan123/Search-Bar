@@ -1,0 +1,124 @@
+.top-container{
+    border-style: solid;
+    height: 850px;
+    border-color: rgb(67, 64, 64);
+    background-image: url("https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav-bar{
+    /* border-color: aqua; */
+    padding: 30px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    border-style: solid;
+    height: 50px;
+    border-color: rgb(67, 64, 64);
+    /* background-image: url("https://img.freepik.com/premium-photo/3d-rendering-shopping-cart-laptop_172660-170.jpg?size=626&ext=jpg"); */
+}
+
+.midle-container{
+    margin-top: 5px;
+    border-style: solid;
+    height: 600px;
+    border-color: rgb(67, 64, 64);
+}
+
+.bottom-container{
+    margin-top: 5px;
+    border-style: solid;
+    height: 80px;
+    border-color: rgb(67, 64, 64);
+}
+
+.logo{
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 40px;
+}
+
+.nav-2{
+    cursor: pointer; 
+    color: black;
+    display: flex;
+    padding: 15px;
+}
+.nav-2 > p{
+    padding: 5px;
+}
+
+.Text{
+    border: 15px;
+    border-color: pink;
+    color: purple;
+    border-style: inset;
+    margin: 5px 5% 5px 5%;
+    text-align: center;
+    height: 200px;
+}
+.box{
+    color: black;
+}
+
+.Search-Bar{
+    /* margin: 50px; */
+    font-size: large;
+    text-align: center;
+    border-color: rgb(67, 64, 64);
+}
+
+.bottom-container > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: rgb(244, 227, 244);
+    
+}
+.bottom-container > ul > li{
+    color: black;
+    cursor: pointer;
+    padding: 1%;
+    list-style: none;
+    font-size: 24px;
+    /* background-color: blueviolet; */
+}
+
+.midle-container{
+    background-color: rgb(230, 218, 225);    
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container-box1{
+    cursor: pointer;
+    flex-basis: 20%;
+    padding: 10px;
+    margin: 25px;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.container-box1 > img{
+    width: 315px;
+}
+
+.container-box1:hover{
+    transform: scale(1.10);
+}
+
+.product-name{
+    padding:  1px;
+    color: rgb(222, 39, 164);
+    font-size: 15px;
+}
